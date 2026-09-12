@@ -39,6 +39,7 @@ defmodule WeatherAppWeb.Weather do
     "cabanatuan" => {15.4859, 120.9673},
     "gapan" => {15.3089, 120.9507},
     "san jose nueva ecija" => {15.7911, 120.9986},
+    "lupao" => {15.8782, 120.8993},
     "palayan" => {15.5414, 121.0844},
     "olongapo" => {14.8386, 120.2842},
     "balanga" => {14.6804, 120.5416},
