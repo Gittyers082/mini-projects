@@ -17,7 +17,7 @@ defmodule BaguioWeatherAppWeb.Router do
   scope "/", BaguioWeatherAppWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
+    live "/", WeatherLive
   end
 
   # Other scopes may use custom stacks.

@@ -5,7 +5,7 @@ defmodule BaguioWeatherApp.Advisory do
 
   @base_url "https://api.open-meteo.com/v1/forecast"
 
-  # AI-Assisted: A comprehensive map of Baguio City's major areas, risk zones, and campuses
+  # AI-Assisted: A comprehensive map of Baguio City's major areas, risk zones, and campuses (lines 11-39)
   @locations %{
 
     # SLU Campuses
@@ -73,7 +73,7 @@ defmodule BaguioWeatherApp.Advisory do
   Main pipeline: Takes a location name, fetches data, and evaluates safety.
   """
   def check_location(location_name) do
-    # AI-Assisted: Normalize input to handle case and whitespace variations
+    # AI-Assisted: Normalize input to handle case and whitespace variations (line: 77)
     normalized = location_name |> String.downcase() |> String.trim()
 
     case Map.fetch(@locations, normalized) do

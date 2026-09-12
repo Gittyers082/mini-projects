@@ -68,7 +68,7 @@ defmodule BaguioWeatherApp.MixProject do
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.2.0"},
       {:bandit, "~> 1.5"},
-      {:req, "~> 0.5.0"} # added req for making HTTP requests to the weather API (open-meteo.com)
+      {:req, "~> 0.7"} # added req for making HTTP requests to the weather API (open-meteo.com)
     ]
   end
 
