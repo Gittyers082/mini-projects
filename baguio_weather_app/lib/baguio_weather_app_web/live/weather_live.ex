@@ -91,7 +91,7 @@ defmodule BaguioWeatherAppWeb.WeatherLive do
         {@error}
       </div>
 
-      <!-- Result Card -->
+      <!-- AI-Assisted: Result Card (lines: 95 - 101) -->
       <div :if={@result} class={"border-l-4 rounded-r-lg p-5 shadow-sm " <> alert_colors(@result.safety.level)}>
         <div class="flex justify-between items-start mb-4">
           <h2 class="font-bold text-xl capitalize">{@result.name}</h2>
